@@ -10,5 +10,8 @@ In particular, we are going to use meteorological variables forecasted by GFS as
 
 ![](GEFS_Grid_Points_vs_Mesonet_Stations.PNG)
 
+For this particular dataset, GFS gives a forecast everyday at 00:00 UTC for next day, at 5 times: 1 (12h), 2 (15h), 3 (18h), 4 (21h), 5 (24h), for 15 meteorological variables (apcp_sfc, dlwrf_sfc, …) at each of the blue points in the grid. If V_t_o is the forecast for variable V at time t at location o, then the problem to be solved is to find f such that
+energy_nextday = f(apcp_sf1_1, apcp_sf2_1, …, apcp_sf5_1, dlwrf_s1_1, dlwrf_s2_1,…, uswrf_s4_16, uswrf_s5_16)
+Two files are provided, train and test. The train dataset contains data from 1994-2007 (one day per row) and the test dataset, for 2008-2009. Given that there are 15 meteorological variables, forecasted for 5 different times of the day, at 16 locations (blue points) around the solar plant of interest (red point), the total number of input attributes is 15*5*16 = 1200. The last column (energy) is the response variable.
 
 
