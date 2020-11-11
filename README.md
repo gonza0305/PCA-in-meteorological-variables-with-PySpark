@@ -1,5 +1,6 @@
 # Predicting solar energy production with Scikit-learn and PySpark
 
+## Introduction:
 Nowadays, electricity networks of advanced countries rely more and more in non-operable renewable energy sources, mainly wind and solar. However, in order to integrate energy sources in the electricity network, it is required that the amount of energy to be generated to be forecasted 24 hours in advance, so that energy plants connected to the electricity network can be planned and prepared to meet supply and demand during the next day (For more details, check “Electricity Market” at Wikipedia).
 
 This is not an issue for traditional energy sources (gas, oil, hydropower, …) because they can be generated at will (by burning more gas, for example). But solar and wind energies are not under the control of the energy operator (i.e. they are non-operable), because they depend on the weather. Therefore, they must be forecasted with high accuracy. This can be achieved to some extent by accurate weather forecasts. The Global Forecast System (GFS, USA) and the European Centre for Medium-Range Weather Forecasts (ECMWF) are two of the most important Numerical Weather Prediction models (NWP) for this purpose.
