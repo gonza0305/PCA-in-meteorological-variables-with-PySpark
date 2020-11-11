@@ -8,7 +8,7 @@ This is not an issue for traditional energy sources (gas, oil, hydropower, …) 
 Yet, although NWP’s are very good at predicting accurately variables like “Downward long-wave radiative flux average at the surface”, related to solar radiation, the relation between those variables and the electricity actually produced is not straightforward. Machine Learning models can be used for this task.
 In particular, we are going to use meteorological variables forecasted by GFS as input attributes to a machine learning model that is able to estimate how much solar energy is going to be produced at one of the solar plants in Oklahoma. See the figure below, where the red points are the solar plants and the blue points are locations for which meteorological predictions are provided (by GFS).
 
-!https://github.com/gonza0305/Predicting-solar-energy-production/GEFS Grid Points vs Mesonet Stations.PNG?raw=true
+![](GEFS_Grid_Points_vs_Mesonet_Stations.PNG)
 
 
 
