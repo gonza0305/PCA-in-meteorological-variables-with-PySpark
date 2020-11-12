@@ -16,7 +16,7 @@ energy_nextday = f(apcp_sf1_1, apcp_sf2_1, …, apcp_sf5_1, dlwrf_s1_1, dlwrf_s2
 Two files are provided, train and test. The train dataset contains data from 1994-2007 (one day per row) and the test dataset, for 2008-2009. Given that there are 15 meteorological variables, forecasted for 5 different times of the day, at 16 locations (blue points) around the solar plant of interest (red point), the total number of input attributes is 15*5*16 = 1200. The last column (energy) is the response variable.
 
 
-## FIRST PART: 
+## FIRST PART: Predicting solar energy production with Scikit-learn
 
 Different models were explored, such as Trees Regressor, KNN and XGBoost Regressor, with different sets of hyper-parameters and performing feature selection to explore different sets of input features.
 
